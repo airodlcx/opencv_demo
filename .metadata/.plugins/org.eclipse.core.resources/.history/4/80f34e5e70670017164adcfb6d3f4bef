@@ -1,0 +1,20 @@
+/*
+ * first.cpp
+ *
+ *  Created on: 2017年7月13日
+ *      Author: lcx
+ */
+
+#include "first.h"
+#include "stdio.h"
+
+
+first::first() {
+	// TODO Auto-generated constructor stub
+	printf('%s','lcx');
+}
+
+first::~first() {
+	// TODO Auto-generated destructor stub
+}
+

@@ -1,0 +1,12 @@
+09:52:04 **** Incremental Build of configuration Debug for project demo ****
+make all 
+Building target: demo
+Invoking: Cross G++ Linker
+g++ -L/usr/local/lib -o "demo"   -lopencv_core -l\ opencv_higui -lopencv_imgproc -lopencv_ml
+/usr/bin/ld: 找不到 -l opencv_higui
+makefile:44: recipe for target 'demo' failed
+collect2: error: ld returned 1 exit status
+make: *** [demo] Error 1
+
+09:52:04 Build Finished (took 347ms)
+

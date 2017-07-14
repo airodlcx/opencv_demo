@@ -1,0 +1,13 @@
+
+
+    #include <iostream.h>
+    #include <opencv2/opencv.hpp>
+
+
+    int main() {
+        imread("sen.bmp");
+        imwrite("sen.tif",img);
+        imshow("Test",img);
+        waitKey(0);
+        return 0;
+    }

@@ -1,0 +1,17 @@
+/*
+ * first.h
+ *
+ *  Created on: 2017年7月13日
+ *      Author: lcx
+ */
+
+#ifndef FIRST_H_
+#define FIRST_H_
+
+class first {
+public:
+	first();
+	virtual ~first();
+};
+
+#endif /* FIRST_H_ */

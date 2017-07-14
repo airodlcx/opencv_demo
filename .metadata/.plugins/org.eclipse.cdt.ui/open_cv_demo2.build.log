@@ -1,0 +1,15 @@
+23:35:53 **** Incremental Build of configuration Debug for project open_cv_demo2 ****
+make all 
+Building file: ../main.cpp
+Invoking: GCC C++ Compiler
+g++ -I/usr/local/include/opencv2 -O0 -g3 -Wall -c -fmessage-length=0 -MMD -MP -MF"main.d" -MT"main.o" -o "main.o" "../main.cpp"
+Finished building: ../main.cpp
+ 
+Building target: open_cv_demo2
+Invoking: GCC C++ Linker
+g++ -L/usr/local/lib -o "open_cv_demo2"  ./main.o   -lopencv_core -lopencv_videoio -lopencv_imgcodecs -lopencv_highgui -lopencv_imgproc -lopencv_ml
+Finished building target: open_cv_demo2
+ 
+
+23:35:58 Build Finished (took 5s.668ms)
+

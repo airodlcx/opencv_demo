@@ -1,0 +1,14 @@
+
+
+    #include <iosstream>
+    #include <opencv2/opencv.hpp>
+    using namespace std;
+    using namespace cv;
+
+    int main() {
+        Mat img=imread("sen.bmp");
+        imwrite("sen.tif",img);
+        imshow("Test",img);
+        waitKey(0);
+        return 0;
+    }
