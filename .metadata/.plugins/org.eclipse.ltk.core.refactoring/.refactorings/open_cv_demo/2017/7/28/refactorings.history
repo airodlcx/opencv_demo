@@ -1,3 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;open_cv_demo/main&apos; to &apos;main.cpp&apos;" description="Rename resource &apos;main&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="main" name="main.cpp" stamp="1499997337633" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;open_cv_demo/C41AA3DE5C1762BF179ED8433EBE765D.jpg&apos; to &apos;demo.jpg&apos;" description="Rename resource &apos;C41AA3DE5C1762BF179ED8433EBE765D.jpg&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="C41AA3DE5C1762BF179ED8433EBE765D.jpg" name="demo.jpg" stamp="1499997803694" updateReferences="true"/>
-</session>

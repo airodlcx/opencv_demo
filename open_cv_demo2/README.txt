@@ -10,6 +10,6 @@ duration  = static_cast<double>(cv::getTickCount());
 
 colorReduce(image);      // 被测试的函数
 
-duration static_cast<double>(cv::getTickCount()) - duration;
+duration = static_cast<double>(cv::getTickCount()) - duration;
 
 duration /= cv::getTickFrequency(); // 运行时间，ms为单位
