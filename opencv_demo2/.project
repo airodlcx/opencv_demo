@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>open_cv_demo2</name>
+	<name>opencv_demo2</name>
 	<comment></comment>
 	<projects>
-		<project>open_cv_demo2</project>
+		<project>opencv_demo</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>
