@@ -22,7 +22,7 @@ int main() {
 	Mat frame;
 	Mat edges;
 
-	while (true) {
+	while (true) {//waitkey 时间ms，while循环。每xms刷新摄像头图像。产生实时画面。
 
 		capture>>frame;
 		cvtColor(frame, edges, CV_BGR2GRAY);
@@ -32,7 +32,7 @@ int main() {
 
 		//展示当前帧的图片
 //		imshow("myWindow", frame);
-		char c = cvWaitKey(33);
+		char c = waitKey(1);
 		if (c == 27) {
 			break;
 		}
