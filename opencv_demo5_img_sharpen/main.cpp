@@ -39,6 +39,7 @@ int main() {
 	 kernel.at<float>(2,1) = -1.0;
 	 kernel.at<float>(1,0) = -1.0;
 	 kernel.at<float>(1,2) = -1.0;
+
 	 //调用滤波函数
 	 filter2D(image,result,image.depth(),kernel);
 
