@@ -161,7 +161,7 @@ int main( int argc, char** argv )
             else
             {
                 namedWindow( "mask", 0 );
-                g_maskImage = Scalar::all(0);
+                g_maskImage = Scalar::all(255);
                 imshow("mask", g_maskImage);
                 g_bUseMask = true;
             }

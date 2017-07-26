@@ -36,8 +36,6 @@ int main() {
 	double w = 320, h = 240;
 	capture.set(CV_CAP_PROP_FRAME_WIDTH, w);
 	capture.set(CV_CAP_PROP_FRAME_HEIGHT, h);
-	capture.set(CV_CAP_PROP_FRAME_WIDTH, w);
-	capture.set(CV_CAP_PROP_FRAME_HEIGHT, h);
 
 	namedWindow("当前视频",WINDOW_AUTOSIZE);
 
